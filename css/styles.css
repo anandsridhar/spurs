@@ -1,0 +1,38 @@
+
+nav {
+  float: left;
+  width: 10%;
+  
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
+section {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: powderblue;
+  height: 300px; /* only for demonstration, should be removed */
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+table, th, td {
+  border: 1px solid black;
+}
+form {background-color: yellow;}
