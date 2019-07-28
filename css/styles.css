@@ -1,7 +1,7 @@
-
 nav {
   float: left;
-  width: 10%;
+ /* width: 20%; */
+/*  height: 100px; */
   
   background: #ccc;
   padding: 20px;
@@ -10,23 +10,66 @@ nav {
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
+} 
+li {
+    float: left;
+  }
+
+  li a {
+    display: inline-block; 
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+h1 {
+    font-size:500%;
 }
+
+form {background-color: blue;}
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size:100%;
+    }
+    img {
+        max-width: 100%;
+    }
+    form {
+        background-color: green;
+    }
+    input {
+        width:100%;
+    }
+    nav {
+        background: blue;
+    }
+    section {
+        width: 100%;
+    }
+}
+
+
 header {
+  clear:both;
   background-color: #666;
   padding: 10px;
   text-align: center;
-  font-size: 10px;
   color: white;
+  width: 70%;
+ /* height: 20%; */
 }
+
 section {
   float: left;
   padding: 20px;
   width: 70%;
   background-color: powderblue;
-  height: 300px; /* only for demonstration, should be removed */
 }
+
 footer {
+  clear : both;
   background-color: #777;
   padding: 10px;
   text-align: center;
@@ -35,4 +78,6 @@ footer {
 table, th, td {
   border: 1px solid black;
 }
-form {background-color: yellow;}
+
+
+
